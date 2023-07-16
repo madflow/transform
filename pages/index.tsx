@@ -9,9 +9,10 @@ import { getWorker } from "@utils/workerWrapper";
 import SvgrWorker from "@workers/svgr.worker";
 import SvgoWorker from "@workers/svgo.worker";
 
-let prettier, svgo, svgr;
+let svgo, svgr;
+
 export default function Index() {
-  const name = "SVG to JSX";
+  const name = "SVG to React";
   const [settings, setSettings] = useState(defaultSettings);
   const [optimizedValue, setOptimizedValue] = useState("");
 
@@ -50,7 +51,7 @@ export default function Index() {
       optimizedValue={optimizedValue}
       settings={settings}
       name={name}
-      resultTitle={"JSX"}
+      resultTitle={"React Component"}
     />
   );
 }

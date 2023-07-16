@@ -7,7 +7,7 @@ export const categorizedRoutes = [
     category: "SVG",
     content: [
       {
-        label: "to JSX",
+        label: "to React",
         path: "/",
         packageName: "@svgr/core",
         packageUrl: "https://github.com/smooth-code/svgr",
