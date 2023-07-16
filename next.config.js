@@ -1,6 +1,7 @@
 const webpack = require("webpack");
 
 const config = {
+  webpack5: false,
   webpack(config, options) {
     config.node = {
       fs: "empty",
