@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 
 COPY package.json yarn.lock* ./
+COPY patches ./patches
 RUN yarn --frozen-lockfile
 
 FROM base AS builder
