@@ -58,7 +58,6 @@
     "flowgen": "^1.14.1",
     "formik": "^2.2.9",
     "generate-schema": "^2.6.0",
-    "gofmt.js": "^0.0.2",
     "graphql": "^15.5.1",
     "html2pug": "^4.0.0",
     "htmltojsx": "^0.3.0",
