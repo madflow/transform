@@ -498,35 +498,3 @@ completed = false
 [company]
 id = 12
 name = "Transform Inc"`;
-
-export const cadence = `// Do not remove top level contract
-// Just paste your structs in this contract
-pub contract Example {
-  pub struct ExampleStruct {
-      pub var url: String
-      pub twoCapacityArray: [String;2]
-      pub deeeeepArray: [[[[String]]]]
-
-      pub struct ExampleEmbed {
-        pub var aNumber: Int
-
-        init() {
-          self.aNumber = 0
-        }
-      }
-
-      init() {
-          self.url = ""
-          self.twoCapacityArray = []
-          self.deeeeepArray = []
-      }
-  }
-
-  pub event ExampleEvent(_ name: String, _ aDeeeeeepMap: {String:{String:{String:{String:String}}}})
-
-  // This function will be ignored if 'Generate Interaction Code With Functions' disabled
-  pub fun hello(): String {
-    return "Hello"
-  }
-}
-`;
