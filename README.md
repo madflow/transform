@@ -1,20 +1,4 @@
-![Demo](public/cover.png)
-
----
-
-<a href="https://www.producthunt.com/posts/transform-2-0?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-transform-2-0" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=161868&theme=light" alt="Transform 2.0 - A polyglot web converter | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
-
-<a href="https://vercel.com?utm_source=ritz078&utm_campaign=oss" target="_blank"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Vercel" style="height:40px;"/></a>
-
-## Sponsors
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SuttonJack"><img src="https://avatars.githubusercontent.com/u/92991945?v=4?s=100" width="100px;" alt="Jack Sutton"/><br /><sub><b>Jack Sutton</b></sub></a></td>
-    </tr>
-  </tbody>
-</table>
+# Transformers
 
 ## Credits
 
@@ -32,7 +16,7 @@ MIT @ Ritesh Kumar
 
 ## Self Hosting
 
-- You can self-host the project by running `yarn && yarn build && yarn start`
+- You can self-host the project by using the supplied `Dockerfile`
 
 ## Contributors
 
